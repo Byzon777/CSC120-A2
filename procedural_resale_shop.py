@@ -24,6 +24,7 @@ itemID = 0 # We'll increment this every time we add a new item
 Takes in a Dict containing all the information about a computer,
 adds it to the inventory, returns the assigned item_id
 """
+
 def buy(computer: Dict):
     global itemID
     itemID += 1 # increment itemID
