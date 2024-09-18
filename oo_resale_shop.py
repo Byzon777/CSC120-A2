@@ -1,7 +1,7 @@
 from computer import Computer
 from typing import Dict, Optional, Union
 
-# class 
+# class made for management of all methods related to the computers in the shop
 class ResaleShop:
 
     inventory : list 
