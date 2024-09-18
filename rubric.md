@@ -31,7 +31,7 @@ _yes_ 1 pt: Can successfully remove a `Computer` from the inventory
 
 _yes_ 1 pt: Can successfully update the price/OS of a `Computer` contained in the inventory
 
-____ 1 pt: Program prints appropriate error messages
+__yes__ 1 pt: Program prints appropriate error messages
 
 ## General Items (10 pts):
 
