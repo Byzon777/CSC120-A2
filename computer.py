@@ -22,14 +22,13 @@ class Computer:
     
     def update_price(self, new_price):
         self.price = new_price
+        print ("The price is updated to: ", new_price)
     
     def update_os(self, os):
         self.operating_system = os
-
-    # Remember: in python, all constructors have the same name (__init__)
 
 def main():
     my_computer = Computer("Mac Pro (Late 2013)", "3.5 GHc 6-Core Intel Xeon E5", 1024, 64, "macOS Big Sur", 2013, 1500)
     print(my_computer.description)
 
-main()
+    if __name__ == "__main__": main()
